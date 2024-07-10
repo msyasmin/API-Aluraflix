@@ -19,25 +19,22 @@ https://alurageek-api.vercel.app/
 
 ```json
 {
- "product": [
-        {
-            "img": "https://www.claroshop.com/c/star-wars-day/img/categorias/TAZAS_CATEGORIAS_STAR_WARS.png",
-            "name": "Trooper mug",
-            "price": "$60.00",
-            "description": "Trooper helmet mug",
-            "category": "starwars",
-            "id": 1
-        },
-        {
-            "img": "https://cdn1.coppel.com/images/catalog/mkp/1773/5000/17733590-1.jpg",
-            "name": "Vader Funko",
-            "price": "$60.00",
-            "description": "Collectible Funko of Darth Vader",
-            "category": "starwars",
-            "id": 2
-        }
- ]
-}
+  "videos":[
+  {
+    "id": "1",
+    "titulo": "Cuándo usar let, var y const?",
+    "categoria": "Front End",
+    "video": "https://www.youtube.com/embed/PztCEdIJITY",
+    "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable? En este video te sacamos estas dudas, además de explicarte lo que es escopo global y local en JavaScript."
+  },
+  {
+    "id": "2",
+    "titulo": "¿Qué es JavaScript?",
+    "categoria": "Front End",
+    "video": "https://www.youtube.com/embed/GJfOSoaXk4s",
+    "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips."
+  },
+]
 ```
 
 ## Build It Yourself
@@ -46,7 +43,7 @@ If you'd like to create the project from scratch, I have a [YouTube video Tutori
 
 ### Step 1
 
-Create a new repository, for example, **alurageek-API**. Then clone that empty repository.
+Create a new repository, for example, **aluraflix-API**. Then clone that empty repository.
 
 ### Step 2
 
